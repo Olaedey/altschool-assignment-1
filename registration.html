@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+   <title>Registration Page</title>
+</head>
+
+<body id="registration">
+   <header>
+      <div id="navbar" class="navbar top">
+         <h1 class="logo">
+            <a href="index.html"><span class="text-pry">Ab</span>Tech</a>
+         </h1>
+         <nav>
+            <ul>
+               <li><a href="index.html">About Me</a></li>
+               <li><a href="#registration" class="current">Registration</a></li>
+               <li><a href="login.html">Login</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <section id="contact-form" class="form-padding low">
+         <h2 class="header_prt">Create an account</h2>
+         <div class="container">
+            <form>
+               <div class="form-group">
+                  <input type="text" name="name" placeholder="Enter your first name" required>
+               </div>
+               <div class="form-group">
+                  <input type="text" name="name" placeholder="Enter your last name" required>
+               </div>
+               <div class="form-group">
+                  <input type="tel" name="name" placeholder="Enter your phone number" required>
+               </div>
+               <div class="form-group">
+                  <select name="priority" id="priority" required>
+                     <option value="gender">Gender (Select an option)</option>
+                     <option value="male">Male</option>
+                     <option value="female">Female</option>
+                     <option value="others">I prefer not to say </option>
+                  </select>
+               </div>
+               <div class="form-group">
+                  <input type="text" name="name" placeholder="Country" required>
+               </div>
+               <div class="form-group">
+                  <input type="text" name="name" placeholder="State/Province" required>
+               </div>
+               <div class="form-group">
+                  <input type="text" name="name" placeholder="Username" required>
+               </div>
+               <div class="form-group">
+                  <input type="password" name="password" placeholder="password" required>
+               </div>
+               <div class="form-group">
+                  <input type="password" name="password" placeholder="confirm password" required>
+               </div>
+               <button type="submit" id="contact-btn" class="btn btn-pry">Register</button>
+               <br><br>
+               <p id="already">Already have an account? Login<a href="login.html"> here</a>.</p>
+            </form>
+         </div>
+      </section>
+      <footer id="main-footer">
+         <p><span class="text-pry">Ab</span>Tech &copy; 2022, All RIghts Reserved</p>
+      </footer>
+      </footer>
+   </main>
+
+</body>
+
+</html>
